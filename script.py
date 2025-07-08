@@ -26,7 +26,7 @@ worksheet.set_column(2, 2, 50)
 
 ticket_row = 1
 product_row = 1
-for file_path in ['../file2.xml', '../file1.xml', '../file.xml']:
+for file_path in ['./file.xml']:
     tree = objectify.parse(file_path)
     root = tree.getroot()
 
